@@ -1,0 +1,110 @@
+nav {
+    background-color: black;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+.nav-item {
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+body {
+    background-color: black;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-family: 'Jura',
+        sans-serif;
+}
+
+b {
+    text-align: center;
+    color: white;
+    margin-left: 120px;
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+button {
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+    font-family: monospace;
+    font-size: x-large;
+    background-color: transparent;
+    border: 2px outset white;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    transition-property: all;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 2px outset snow;
+    border-radius: 9px;
+}
+
+
+
+@media (min-width: 200px)and(max-width: 500px) {
+    b {
+        display: none;
+    }
+
+    button {
+
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+
+    img {
+        visibility: hidden;
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+
+    }
+    h3{
+        display: none;
+    }
+}
+
+

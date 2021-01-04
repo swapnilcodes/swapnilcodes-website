@@ -1,0 +1,32 @@
+.img{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+}
+img{
+    width: 398px;
+    height: 348px;
+    border-radius: 9px;
+    border: 2px solid green;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Raleway', monospace;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+#subtitle{
+    text-align: center;
+    color: royalblue;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+

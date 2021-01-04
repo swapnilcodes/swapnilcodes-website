@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='explore-style.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='IMG_20201208_104137_431.jpg') }}" type="image/x-icon">
+    <title>Explore- Code With Swapnil</title>
+</head>
+
+<body>
+    <nav id="nav">
+
+        <a href="#" class="nav-item" id="main">
+            <h3 id="nav-heading">Code With Swapnil</h3>
+        </a>
+        <a href="/home" class="nav-item">
+            <h4>Home</h4>
+        </a>
+        <a href="/explore" class="nav-item">
+            <h4>Explore</h4>
+        </a>
+        <a href="/about" class="nav-item">
+            <h4>About</h4>
+        </a>
+         <a href="/blogs" class="nav-item">
+            <h4 id="blogs">Blogs</h4>
+        </a>
+        <a href="/memes" class="nav-item">
+            <h4 id="memes">Memes</h4>
+        </a>
+    </nav>
+    <h1>Explore</h1>
+    <div class="container">
+        <button class="options" id="my-youtube">Me On Youtube</button>
+        <button class="options" id="my-insta">Me On Insta</button>
+        <button class="options" id="genx-utube">Genxclub on Youtube</button>
+        <button class="options" id="genx-insta">Genxclub on Insta</button>
+        <button class="options" id="genx-tele">Genxclub On Telegram</button>
+        <button class="options" id="genx-web">Genxclub Website</button>
+    </div>
+    <div class="recent-container">
+        <div class="heading-container">
+            <h3 id="recent-heading">Last Visited</h3>
+        </div>
+        <div class="recent">
+            
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="{{ url_for('static', filename='explore-script.js') }}"></script>
+</body>
+
+</html>

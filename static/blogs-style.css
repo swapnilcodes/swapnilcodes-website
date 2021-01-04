@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Pirata One',
+    cursive;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+h3{
+    text-align: justify;
+    font-family: monospace;
+    color: white;
+    font-size: 20px;
+}

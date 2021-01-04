@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/memes-page-style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./IMG_20201208_104137_431.jpg" type="image/x-icon">
+    <title>Programming Memes- Code With Swapnil</title>
+
+</head>
+
+<body>
+    <nav id="nav">
+
+        <a href="#" class="nav-item" id="main">
+            <h3 id="nav-heading">Code With Swapnil</h3>
+        </a>
+        <a href="/home" class="nav-item">
+            <h4>Home</h4>
+        </a>
+
+        <a href="/about" class="nav-item">
+            <h4>About</h4>
+        </a>
+
+        <a href="/blogs" class="nav-item">
+            <h4>Blogs</h4>
+        </a>
+        <a href="/memes" class="nav-item">
+            <h4>Memes</h4>
+        </a>
+
+    </nav>
+    <h1>Programming Memes</h1>
+    <div class="flex">
+        <img src="{{ url_for('static', filename='meme-1.jpg') }}" alt="">
+        <img src="{{ url_for('static', filename='meme-2') }}" alt="">
+    </div>
+    <div class="flex">
+        <img src="{{ url_for('static', filename='meme-3.jpg') }}" alt="">
+        <img src="{{ url_for('static', filename='meme-4.jpg') }}" alt="">
+    </div>
+    <div class="flex">
+        <img src="{{ url_for('static', filename='meme-5.jpg') }}" alt="">
+        <img src="{{ url_for('static', filename='meme6.jpg') }}" alt="">
+    </div>
+    <div class="flex">
+        <img src="{{ url_for('static', filename='meme-7.jpg') }}" alt="">
+        <img src="{{ url_for('static', filename='meme-8.jpg') }}" alt="">
+    </div>
+    <div class="flex">
+        <img src="{{ url_for('static', meme-9.jpg') }}" alt="">
+        <img src=".{{ url_for('static', filename='meme-10.jpg') }}" alt="">
+    </div>
+    <div class="flex">
+        <img src="{{ url_for('static', filename='meme-11.jpg') }}" alt="">
+        <img src="{{ url_for('static', filename='meme-12.jpg') }}" alt="">
+    </div>
+    <img src="{{ url_for('static', filename='meme-13.jpg') }}" alt="">
+    <script src="{{ url_for('static', filename='memes-script.js') }}"></script>
+</body>
+
+</html>

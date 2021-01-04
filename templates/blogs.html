@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='blog-style.css') }}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./IMG_20201208_104137_431.jpg" type="image/x-icon">
+    <title>Blogs- Code With Swapnil</title>
+</head>
+<body>
+    <h1>Blogs</h1>
+    <h3>Choose A blog</h3>
+    <div class="card" id= "card1">
+        <h4 class= "card-heading">Frontend Vs Backend</h4>
+        <hr>
+        <img src="{{ url_for('static', filename='Frontend vs Backend blog cover.png') }}" alt="">
+        <hr>
+        - while_true_coder
+    </div>
+    <div class="card" id="card2">
+        <h4 class="card-heading">Top 3 programming languages to learn in 2021</h4>
+        <hr>
+        <img src="{{ url_for('static', filename='Top 3 programming languges to learn in 2021.png') }}" alt="">
+        
+    </div>
+
+    <div class="note">
+        <h3>The blogs Will be Updated Every Ten days</h3>
+    </div>
+    <script src="{{ url_for('static', filename='blog-script.js') }}"></script>
+</body>
+</html>
